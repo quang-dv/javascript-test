@@ -1,0 +1,3 @@
+export function getArrayByIndex(array, n) {
+    //write code here ...
+}

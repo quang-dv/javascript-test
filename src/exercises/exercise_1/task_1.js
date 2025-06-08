@@ -1,0 +1,3 @@
+export function countDataTypes(mixedArray) {
+  //write code here ...
+}

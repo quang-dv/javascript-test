@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript - Training Exercises</title>
+    <link
+      rel="icon"
+      href="../../../assets/image/JavaScript-logo.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../../index.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-description">
+        <a href="../../index.html">JavaScript - Training Exercises</a>
+      </div>
+      <div id="test-link" class="header-tool"></div>
+    </div>
+    <div class="content">
+      <div class="title">Exercise 1</div>
+      <div class="question-block">
+        <div class="question-title">
+          Task 1: Write a Function to Count Data Types
+        </div>
+        <div class="question-content">
+          <div class="question-content-block">
+            <div class="text-title">Description</div>
+            <p>
+              Write a function named <code>countDataTypes</code> that takes a
+              mixed array containing different values, including numbers,
+              strings, and booleans. The function should return an object that
+              counts the occurrences of each data type in the array.
+            </p>
+          </div>
+          <div class="question-content-block">
+            <div class="text-title">Functionality of the function</div>
+            <p>
+              Input: <br />Parameter: mixedArray: An array that can contain
+              various values (numbers, strings, booleans).
+            </p>
+            <p>
+              Output: <br />Return an object with properties representing the
+              data type names and values representing the count of occurrences
+              of that data type in the array. <br />If the input array is empty
+              or not an array, return an empty object {}. <br />The function
+              should handle other data types (if any) but does not need to count
+              them.
+            </p>
+            <p>
+              Examples:
+              <br />
+              If mixedArray is [1, 'hello', true, 42, 'world'], the function
+              should return:
+              <code>{ number: 2, string: 2, boolean: 1 }</code>
+            </p>
+          </div>
+          <div class="question-content-block">
+            <div class="text-title">Requirements</div>
+            <p>
+              Ensure that the function accurately and efficiently handles all
+              the above cases
+            </p>
+            <p>
+              Please write the answer in the file
+              <code>src\exercises\exercise_1\task_1.js</code>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="question-block">
+        <div class="question-title">
+          Task 2: Write the function filterArray using anonymous function
+        </div>
+        <div class="question-content">
+          <div class="question-content-block">
+            <div class="text-title">Description</div>
+            <p>
+              Write a function that takes an array of numbers and an anonymous
+              function as arguments. The anonymous function should define a
+              condition to filter the array. Call the function with a filtering
+              condition (only odd numbers).
+            </p>
+          </div>
+          <div class="question-content-block">
+            <div class="text-title">Functionality of the function</div>
+            <p>The function named filterArray that takes two parameters:</p>
+            <ul>
+              <li>An array of numbers (e.g., [1, 2, 3, 4, 5]).</li>
+              <li>An anonymous function to define the filtering condition.</li>
+            </ul>
+            <p>
+              Inside the filterArray function, use the filter method of the
+              array to filter the elements based on the condition defined in the
+              anonymous function (only getting odd numbers).
+            </p>
+          </div>
+          <div class="question-content-block">
+            <div class="text-title">Requirements</div>
+            <p>
+              Ensure that the anonymous function passed in is in the correct
+              format to filter the array
+            </p>
+            <p>
+              Please write the answer in the file
+              <code>src\exercises\exercise_1\task_2.js</code>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="question-block">
+        <div class="question-title">
+          Task 3: Write the function <code>getArrayByIndex</code>
+        </div>
+        <div class="question-content">
+          <div class="question-content-block">
+            <div class="text-title">Description</div>
+            <p>
+              Write a function named getArrayByIndex that takes two parameters:
+              <code>inputArray</code>, <code>n</code>
+            </p>
+          </div>
+          <div class="question-content-block">
+            <div class="text-title">Functionality of the function</div>
+            <p>
+              The function will return a new array containing elements from
+              <code>inputArray</code> according to the following rules:
+            </p>
+            <ul>
+              <li>
+                If <code>n</code> is provided, the function will return the
+                first <code>n</code> elements of <code>inputArray</code>. If
+                <code>n</code> is greater than the number of elements in
+                <code>inputArray</code>, the function will return the entire
+                array.
+              </li>
+              <li>
+                If <code>n</code> is invalid (for example, a negative number or
+                not a number), the function will return an empty array.
+              </li>
+              <li>
+                If <code>inputArray</code> is not a valid array, the function
+                will also return an empty array.
+              </li>
+            </ul>
+          </div>
+          <div class="question-content-block">
+            <div class="text-title">Requirements</div>
+            <p>
+              Ensure that the function accurately and efficiently handles all
+              the above cases
+            </p>
+            <p>
+              Please write the answer in the file
+              <code>src\exercises\exercise_1\task_3.js</code>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="../../index.js"></script>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript - Training Exercises</title>
+    <link
+      rel="icon"
+      href="../../../assets/image/JavaScript-logo.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../../index.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-description">
+        <a href="../../index.html">JavaScript - Training Exercises</a>
+      </div>
+      <div id="test-link" class="header-tool"></div>
+    </div>
+    <div class="content">
+      <div class="title">Exercise 3</div>
+      <div class="question-block">
+        <div class="question-title">
+          Task: Build a quiz feature based on an existing html page
+        </div>
+        <div class="question-content">
+          <div class="question-content-block">
+            <div class="text-title">Description</div>
+            <p>
+              There is a website with XML multiple choice test questions as
+              follows:
+              <a
+                href="./task.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                style="color: blue"
+                title="XML Skill Assessment"
+                >Page</a
+              >
+            </p>
+            <p>Description of the webpage:</p>
+            <ul>
+              <li>
+                The webpage displays a list of multiple-choice questions about
+                XML.
+              </li>
+              <li>
+                Each question has 3 to 4 answer options, with the correct answer
+                bolded.
+              </li>
+            </ul>
+            <p>
+              Please analyze the webpage and build a quiz feature based on this
+              webpage (using the knowledge learned to interact with the DOM).
+            </p>
+            <p>Necessary features include:</p>
+            <ul>
+              <li>Number the questions (starting from 1).</li>
+              <img
+                src="../../../assets/image/exercise_3_pic_1.png"
+                alt=""
+                style="width: 1000px"
+              />
+              <li>Remove the bold formatting from the correct answers.</li>
+              <img
+                src="../../../assets/image/exercise_3_pic_2.png"
+                alt=""
+                style="width: 1000px"
+              />
+              <li>
+                Create a score table and display the questions. The score table
+                should show: number of correct answers/total questions
+                attempted. (To be displayed as shown in the image below).
+              </li>
+              <img
+                src="../../../assets/image/exercise_3_pic_3.png"
+                alt=""
+                style="width: 500px"
+              />
+              <li>
+                When clicking on each question in the question table, the screen
+                will scroll to the position of that question.
+              </li>
+              <video width="640" height="360" controls>
+                <source
+                  src="../../../assets/video/JavaScript - Training Exercises - video_1.mp4"
+                  type="video/mp4"
+                />
+              </video>
+              <li>
+                When answering a question (clicking on one of the answer
+                options), that answer will be bolded, and the question table
+                will display the result (green for correct answers, red for
+                incorrect ones), calculate the score, and display it in the
+                score table.
+              </li>
+              <video width="640" height="360" controls>
+                <source
+                  src="../../../assets/video/JavaScript - Training Exercises - video_2.mp4"
+                  type="video/mp4"
+                />
+              </video>
+            </ul>
+            <p>
+              Please do not modify the file src\exercises\exercise_3\task.html.
+            </p>
+            <p>
+              Please write your answer in the file
+              src\exercises\exercise_3\task.js.
+            </p>
+            <div class="text-title">Resource</div>
+            <p>Provide the code for the question table:</p>
+            <pre style="background-color: #ccc">
+                <code>
+                &lt;div class="question-box"&gt;
+                    &lt;div class="score-box"&gt;
+                        &lt;div id="correct-questions-num"&gt;0&lt;/div&gt;
+                        &lt;div&gt;/&lt;/div&gt;
+                        &lt;div id="questions-answered-num"&gt;0&lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class="question-list-box"&gt;
+                        &lt;div class="question-no-item"&gt;1&lt;/div&gt;
+                        &lt;div class="question-no-item correct"&gt;2&lt;/div&gt;
+                        &lt;div class="question-no-item incorrect"&gt;3&lt;/div&gt;
+                        &lt;div class="question-no-item"&gt;4&lt;/div&gt;
+                        &lt;div class="question-no-item"&gt;5&lt;/div&gt;
+                        &lt;div class="question-no-item"&gt;6&lt;/div&gt;
+                        &lt;div class="question-no-item"&gt;7&lt;/div&gt;
+                        &lt;div class="question-no-item"&gt;8&lt;/div&gt;
+                        &lt;div class="question-no-item"&gt;9&lt;/div&gt;
+                        &lt;div class="question-no-item"&gt;10&lt;/div&gt;
+                        &lt;div class="question-no-item"&gt;11&lt;/div&gt;
+                        &lt;div class="question-no-item"&gt;12&lt;/div&gt;
+                        &lt;div class="question-no-item"&gt;13&lt;/div&gt;
+                        &lt;div class="question-no-item"&gt;14&lt;/div&gt;
+                        &lt;div class="question-no-item"&gt;15&lt;/div&gt;
+                        &lt;div class="question-no-item"&gt;16&lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                </code>
+            </pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="../../index.js"></script>
+</html>
