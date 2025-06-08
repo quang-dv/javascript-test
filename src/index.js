@@ -1,7 +1,9 @@
 const IS_SHOW_TEST_LINK = true;
+const sub_path = "/javascript-test";
 
 const testLinkMap = {
-  "/src/exercises/exercise_1/index.html": "../../test/exercise_1/index.html",
+  [sub_path + "/src/exercises/exercise_1/index.html"]:
+    "../../test/exercise_1/index.html",
 };
 
 const onShowTestLink = () => {
